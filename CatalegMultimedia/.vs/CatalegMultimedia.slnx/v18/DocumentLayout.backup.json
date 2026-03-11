@@ -1,0 +1,461 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|d:\\escritorio\\daw-mt\\programaci\u00F3\\poo-repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\catalegmultimedia\\catalegmultimedia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|solutionrelative:catalegmultimedia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|d:\\escritorio\\daw-mt\\programaci\u00F3\\poo-repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\catalegmultimedia\\catalegmultimedia\\model\\efectesonor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|solutionrelative:catalegmultimedia\\model\\efectesonor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|d:\\escritorio\\daw-mt\\programaci\u00F3\\poo-repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\catalegmultimedia\\catalegmultimedia\\model\\partitura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|solutionrelative:catalegmultimedia\\model\\partitura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|d:\\escritorio\\daw-mt\\programaci\u00F3\\poo-repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\catalegmultimedia\\catalegmultimedia\\model\\canco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|solutionrelative:catalegmultimedia\\model\\canco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|d:\\escritorio\\daw-mt\\programaci\u00F3\\poo-repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\catalegmultimedia\\catalegmultimedia\\model\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|solutionrelative:catalegmultimedia\\model\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|d:\\escritorio\\daw-mt\\programaci\u00F3\\poo-repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\catalegmultimedia\\catalegmultimedia\\model\\gravat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|solutionrelative:catalegmultimedia\\model\\gravat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|d:\\escritorio\\daw-mt\\programaci\u00F3\\poo-repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\catalegmultimedia\\catalegmultimedia\\model\\cartografia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|solutionrelative:catalegmultimedia\\model\\cartografia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|d:\\escritorio\\daw-mt\\programaci\u00F3\\poo-repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\catalegmultimedia\\catalegmultimedia\\model\\llibre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|solutionrelative:catalegmultimedia\\model\\llibre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|d:\\escritorio\\daw-mt\\programaci\u00F3\\poo-repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\catalegmultimedia\\catalegmultimedia\\classdiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|solutionrelative:catalegmultimedia\\classdiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|d:\\escritorio\\daw-mt\\programaci\u00F3\\poo-repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\catalegmultimedia\\catalegmultimedia\\model\\manuscrit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|solutionrelative:catalegmultimedia\\model\\manuscrit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|d:\\escritorio\\daw-mt\\programaci\u00F3\\poo-repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\catalegmultimedia\\catalegmultimedia\\model\\fotografia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|solutionrelative:catalegmultimedia\\model\\fotografia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|d:\\escritorio\\daw-mt\\programaci\u00F3\\poo-repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\catalegmultimedia\\catalegmultimedia\\model\\artdigital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|solutionrelative:catalegmultimedia\\model\\artdigital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|d:\\escritorio\\daw-mt\\programaci\u00F3\\poo-repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\catalegmultimedia\\catalegmultimedia\\model\\diagrama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|solutionrelative:catalegmultimedia\\model\\diagrama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|d:\\escritorio\\daw-mt\\programaci\u00F3\\poo-repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\catalegmultimedia\\catalegmultimedia\\model\\logotip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|solutionrelative:catalegmultimedia\\model\\logotip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|d:\\escritorio\\daw-mt\\programaci\u00F3\\poo-repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\catalegmultimedia\\catalegmultimedia\\model\\mitja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|solutionrelative:catalegmultimedia\\model\\mitja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|d:\\escritorio\\daw-mt\\programaci\u00F3\\poo-repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\catalegmultimedia\\catalegmultimedia\\model\\podcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|solutionrelative:catalegmultimedia\\model\\podcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|d:\\escritorio\\daw-mt\\programaci\u00F3\\poo-repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\catalegmultimedia\\catalegmultimedia\\model\\audiollibre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|solutionrelative:catalegmultimedia\\model\\audiollibre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|d:\\escritorio\\daw-mt\\programaci\u00F3\\poo-repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\catalegmultimedia\\catalegmultimedia\\model\\bitrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|solutionrelative:catalegmultimedia\\model\\bitrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|d:\\escritorio\\daw-mt\\programaci\u00F3\\poo-repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\catalegmultimedia\\catalegmultimedia\\model\\serie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|solutionrelative:catalegmultimedia\\model\\serie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|d:\\escritorio\\daw-mt\\programaci\u00F3\\poo-repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\catalegmultimedia\\catalegmultimedia\\model\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|solutionrelative:catalegmultimedia\\model\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|d:\\escritorio\\daw-mt\\programaci\u00F3\\poo-repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\catalegmultimedia\\catalegmultimedia\\model\\documental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|solutionrelative:catalegmultimedia\\model\\documental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|d:\\escritorio\\daw-mt\\programaci\u00F3\\poo-repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\catalegmultimedia\\catalegmultimedia\\model\\publicacio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|solutionrelative:catalegmultimedia\\model\\publicacio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|d:\\escritorio\\daw-mt\\programaci\u00F3\\poo-repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\catalegmultimedia\\catalegmultimedia\\model\\revista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|solutionrelative:catalegmultimedia\\model\\revista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|d:\\escritorio\\daw-mt\\programaci\u00F3\\poo-repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\catalegmultimedia\\catalegmultimedia\\model\\imatge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|solutionrelative:catalegmultimedia\\model\\imatge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|d:\\escritorio\\daw-mt\\programaci\u00F3\\poo-repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\catalegmultimedia\\catalegmultimedia\\model\\text.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|solutionrelative:catalegmultimedia\\model\\text.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|d:\\escritorio\\daw-mt\\programaci\u00F3\\poo-repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\catalegmultimedia\\catalegmultimedia\\model\\temapodcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1740EE70-33DC-50BC-D86D-EAF29D2D24CD}|CatalegMultimedia\\SugarSyntex.csproj|solutionrelative:catalegmultimedia\\model\\temapodcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 305,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Video.cs",
+              "DocumentMoniker": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Video.cs",
+              "RelativeDocumentMoniker": "CatalegMultimedia\\Model\\Video.cs",
+              "ToolTip": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Video.cs",
+              "RelativeToolTip": "CatalegMultimedia\\Model\\Video.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T16:44:34.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClassDiagram.cd",
+              "DocumentMoniker": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\ClassDiagram.cd",
+              "RelativeDocumentMoniker": "CatalegMultimedia\\ClassDiagram.cd",
+              "ToolTip": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\ClassDiagram.cd",
+              "RelativeToolTip": "CatalegMultimedia\\ClassDiagram.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2026-03-11T09:47:54.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Fotografia.cs",
+              "DocumentMoniker": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Fotografia.cs",
+              "RelativeDocumentMoniker": "CatalegMultimedia\\Model\\Fotografia.cs",
+              "ToolTip": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Fotografia.cs",
+              "RelativeToolTip": "CatalegMultimedia\\Model\\Fotografia.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwC8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T23:00:35.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Mitja.cs",
+              "DocumentMoniker": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Mitja.cs",
+              "RelativeDocumentMoniker": "CatalegMultimedia\\Model\\Mitja.cs",
+              "ToolTip": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Mitja.cs",
+              "RelativeToolTip": "CatalegMultimedia\\Model\\Mitja.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T16:20:56.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Canco.cs",
+              "DocumentMoniker": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Canco.cs",
+              "RelativeDocumentMoniker": "CatalegMultimedia\\Model\\Canco.cs",
+              "ToolTip": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Canco.cs",
+              "RelativeToolTip": "CatalegMultimedia\\Model\\Canco.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAcwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T09:57:30.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EfecteSonor.cs",
+              "DocumentMoniker": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\EfecteSonor.cs",
+              "RelativeDocumentMoniker": "CatalegMultimedia\\Model\\EfecteSonor.cs",
+              "ToolTip": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\EfecteSonor.cs",
+              "RelativeToolTip": "CatalegMultimedia\\Model\\EfecteSonor.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAcwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T21:53:34.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Podcast.cs",
+              "DocumentMoniker": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Podcast.cs",
+              "RelativeDocumentMoniker": "CatalegMultimedia\\Model\\Podcast.cs",
+              "ToolTip": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Podcast.cs",
+              "RelativeToolTip": "CatalegMultimedia\\Model\\Podcast.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T21:48:07.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Audiollibre.cs",
+              "DocumentMoniker": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Audiollibre.cs",
+              "RelativeDocumentMoniker": "CatalegMultimedia\\Model\\Audiollibre.cs",
+              "ToolTip": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Audiollibre.cs",
+              "RelativeToolTip": "CatalegMultimedia\\Model\\Audiollibre.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T21:52:19.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Bitrate.cs",
+              "DocumentMoniker": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Bitrate.cs",
+              "RelativeDocumentMoniker": "CatalegMultimedia\\Model\\Bitrate.cs",
+              "ToolTip": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Bitrate.cs",
+              "RelativeToolTip": "CatalegMultimedia\\Model\\Bitrate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T10:04:29.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Partitura.cs",
+              "DocumentMoniker": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Partitura.cs",
+              "RelativeDocumentMoniker": "CatalegMultimedia\\Model\\Partitura.cs",
+              "ToolTip": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Partitura.cs",
+              "RelativeToolTip": "CatalegMultimedia\\Model\\Partitura.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwEQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T21:52:48.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Program.cs",
+              "RelativeDocumentMoniker": "CatalegMultimedia\\Program.cs",
+              "ToolTip": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Program.cs",
+              "RelativeToolTip": "CatalegMultimedia\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBQAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T09:52:38.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Llibre.cs",
+              "DocumentMoniker": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Llibre.cs",
+              "RelativeDocumentMoniker": "CatalegMultimedia\\Model\\Llibre.cs",
+              "ToolTip": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Llibre.cs",
+              "RelativeToolTip": "CatalegMultimedia\\Model\\Llibre.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAewBQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T16:12:08.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cartografia.cs",
+              "DocumentMoniker": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Cartografia.cs",
+              "RelativeDocumentMoniker": "CatalegMultimedia\\Model\\Cartografia.cs",
+              "ToolTip": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Cartografia.cs",
+              "RelativeToolTip": "CatalegMultimedia\\Model\\Cartografia.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAD4vz0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T16:13:30.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Gravat.cs",
+              "DocumentMoniker": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Gravat.cs",
+              "RelativeDocumentMoniker": "CatalegMultimedia\\Model\\Gravat.cs",
+              "ToolTip": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Gravat.cs",
+              "RelativeToolTip": "CatalegMultimedia\\Model\\Gravat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T16:12:47.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ArtDigital.cs",
+              "DocumentMoniker": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\ArtDigital.cs",
+              "RelativeDocumentMoniker": "CatalegMultimedia\\Model\\ArtDigital.cs",
+              "ToolTip": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\ArtDigital.cs",
+              "RelativeToolTip": "CatalegMultimedia\\Model\\ArtDigital.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwD4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T23:00:51.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Logotip.cs",
+              "DocumentMoniker": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Logotip.cs",
+              "RelativeDocumentMoniker": "CatalegMultimedia\\Model\\Logotip.cs",
+              "ToolTip": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Logotip.cs",
+              "RelativeToolTip": "CatalegMultimedia\\Model\\Logotip.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAQwDEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T22:49:39.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Diagrama.cs",
+              "DocumentMoniker": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Diagrama.cs",
+              "RelativeDocumentMoniker": "CatalegMultimedia\\Model\\Diagrama.cs",
+              "ToolTip": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Diagrama.cs",
+              "RelativeToolTip": "CatalegMultimedia\\Model\\Diagrama.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAcwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T22:58:08.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Manuscrit.cs",
+              "DocumentMoniker": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Manuscrit.cs",
+              "RelativeDocumentMoniker": "CatalegMultimedia\\Model\\Manuscrit.cs",
+              "ToolTip": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Manuscrit.cs",
+              "RelativeToolTip": "CatalegMultimedia\\Model\\Manuscrit.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAUwFMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T11:16:55.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Serie.cs",
+              "DocumentMoniker": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Serie.cs",
+              "RelativeDocumentMoniker": "CatalegMultimedia\\Model\\Serie.cs",
+              "ToolTip": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Serie.cs",
+              "RelativeToolTip": "CatalegMultimedia\\Model\\Serie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T23:01:41.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Pelicula.cs",
+              "DocumentMoniker": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Pelicula.cs",
+              "RelativeDocumentMoniker": "CatalegMultimedia\\Model\\Pelicula.cs",
+              "ToolTip": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Pelicula.cs",
+              "RelativeToolTip": "CatalegMultimedia\\Model\\Pelicula.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T23:01:06.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Documental.cs",
+              "DocumentMoniker": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Documental.cs",
+              "RelativeDocumentMoniker": "CatalegMultimedia\\Model\\Documental.cs",
+              "ToolTip": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Documental.cs",
+              "RelativeToolTip": "CatalegMultimedia\\Model\\Documental.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T23:01:26.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Publicacio.cs",
+              "DocumentMoniker": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Publicacio.cs",
+              "RelativeDocumentMoniker": "CatalegMultimedia\\Model\\Publicacio.cs",
+              "ToolTip": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Publicacio.cs",
+              "RelativeToolTip": "CatalegMultimedia\\Model\\Publicacio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T16:43:55.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Revista.cs",
+              "DocumentMoniker": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Revista.cs",
+              "RelativeDocumentMoniker": "CatalegMultimedia\\Model\\Revista.cs",
+              "ToolTip": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Revista.cs",
+              "RelativeToolTip": "CatalegMultimedia\\Model\\Revista.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T08:19:23.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Imatge.cs",
+              "DocumentMoniker": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Imatge.cs",
+              "RelativeDocumentMoniker": "CatalegMultimedia\\Model\\Imatge.cs",
+              "ToolTip": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Imatge.cs",
+              "RelativeToolTip": "CatalegMultimedia\\Model\\Imatge.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T17:12:48.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Text.cs",
+              "DocumentMoniker": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Text.cs",
+              "RelativeDocumentMoniker": "CatalegMultimedia\\Model\\Text.cs",
+              "ToolTip": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\Text.cs",
+              "RelativeToolTip": "CatalegMultimedia\\Model\\Text.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T16:37:05.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TemaPodcast.cs",
+              "DocumentMoniker": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\TemaPodcast.cs",
+              "RelativeDocumentMoniker": "CatalegMultimedia\\Model\\TemaPodcast.cs",
+              "ToolTip": "D:\\Escritorio\\DAW-MT\\Programaci\u00F3\\Poo-Repo\\cat-leg-multim-dia-4t-lliurament-fahdriaz\\CatalegMultimedia\\CatalegMultimedia\\Model\\TemaPodcast.cs",
+              "RelativeToolTip": "CatalegMultimedia\\Model\\TemaPodcast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T21:49:01.94Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

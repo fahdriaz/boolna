@@ -1,0 +1,259 @@
+﻿using SugarSyntax;
+using SugarSyntax.Model;
+using static SugarSyntax.Enumeracions;
+using static SugarSyntex.Model.Bitrates;
+
+namespace SugarSyntex
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            // ------------------------------------
+            //  5 llistes separades del catàleg
+            // ------------------------------------
+
+            List<Canço> cancons = new List<Canço>();
+            List<Podcast> podcasts = new List<Podcast>();
+            List<Audiollibre> audiolliures = new List<Audiollibre>();
+            List<Partitura> partitures = new List<Partitura>();
+            List<EfecteSonor> efectesSonors = new List<EfecteSonor>();
+
+            // ------------------------------------
+            //  4 diccionaris separats (visuals)
+            // ------------------------------------
+            Dictionary<string, Logotip> logos = new Dictionary<string, Logotip>();
+            Dictionary<string, Diagrama> diagrames = new Dictionary<string, Diagrama>();
+            Dictionary<string, Fotografia> fotografies = new Dictionary<string, Fotografia>();
+            Dictionary<string, ArtDigital> artdigitals = new Dictionary<string, ArtDigital>();
+
+            // ────────────────────────────────────────────────────────────────
+            //  LECTURA CSV
+            // ────────────────────────────────────────────────────────────────
+
+            StreamReader sr = new StreamReader("Cansons.csv");
+            sr.ReadLine(); // Saltar capçalera
+            string linia;
+            while ((linia = sr.ReadLine()) != null)
+                cancons.Add(new Canço(linia));
+            sr.Close();
+            
+            sr = new StreamReader("Podcats.csv");
+            sr.ReadLine();
+            while ((linia = sr.ReadLine()) != null)
+                podcasts.Add(new Podcast(linia));
+            sr.Close();
+            
+            sr = new StreamReader("Audiollibres.csv");
+            sr.ReadLine();
+            while ((linia = sr.ReadLine()) != null)
+                audiolliures.Add(new Audiollibre(linia));
+            sr.Close();
+            
+            sr = new StreamReader("Partitures.csv");
+            sr.ReadLine();
+            while ((linia = sr.ReadLine()) != null)
+                partitures.Add(new Partitura(linia));
+            sr.Close();
+            
+            sr = new StreamReader("Sons.csv");
+            sr.ReadLine();
+            while ((linia = sr.ReadLine()) != null)
+                efectesSonors.Add(new EfecteSonor(linia));
+            sr.Close();
+
+            // ────────────────────────────────────────────────────────────────
+            //  LECTURA CSV (visuals -> diccionaris)
+            //  Use object initializers: create empty object and assign properties
+            // ────────────────────────────────────────────────────────────────
+
+            // Logos
+            sr = new StreamReader("CSV\\Logos.csv");
+            sr.ReadLine();
+            while ((linia = sr.ReadLine()) != null)
+            {
+                if (string.IsNullOrWhiteSpace(linia)) continue;
+                string[] camps = linia.Split(';');
+                Logotip l = new Logotip();
+                l.Id = camps[0];
+                l.Titol = camps[1];
+                l.Autor = camps[2];
+                l.AnyCreacio = int.TryParse(camps[3], out var anyL) ? anyL : 0;
+                l.Etiquetes = camps[4];
+                l.RutaFitxer = camps[5];
+                l.Amplada = int.TryParse(camps[6], out var ampL) ? ampL : 0;
+                l.Alcada = int.TryParse(camps[7], out var alcL) ? alcL : 0;
+                l.EspaiColor = camps[8];
+                l.VersioSVG = camps[9];
+                l.NombreVectors = int.TryParse(camps[10], out var nvL) ? nvL : 0;
+                l.TeFonsTransparent = bool.TryParse(camps[11], out var tfL) ? tfL : false;
+                l.Empresa = camps.Length > 12 ? camps[12] : string.Empty;
+                l.ManualIdentitatUrl = camps.Length > 13 ? camps[13] : string.Empty;
+                logos[l.Id] = l;
+            }
+            sr.Close();
+
+            // Diagrames
+            sr = new StreamReader("CSV\\Diagrames.csv");
+            sr.ReadLine();
+            while ((linia = sr.ReadLine()) != null)
+            {
+                if (string.IsNullOrWhiteSpace(linia)) continue;
+                string[] camps = linia.Split(';');
+                Diagrama d = new Diagrama();
+                d.Id = camps[0];
+                d.Titol = camps[1];
+                d.Autor = camps[2];
+                d.AnyCreacio = int.TryParse(camps[3], out var anyD) ? anyD : 0;
+                d.Etiquetes = camps[4];
+                d.RutaFitxer = camps[5];
+                d.Amplada = int.TryParse(camps[6], out var ampD) ? ampD : 0;
+                d.Alcada = int.TryParse(camps[7], out var alcD) ? alcD : 0;
+                d.EspaiColor = camps[8];
+                d.VersioSVG = camps[9];
+                d.NombreVectors = int.TryParse(camps[10], out var nvD) ? nvD : 0;
+                d.TeFonsTransparent = bool.TryParse(camps[11], out var tfD) ? tfD : false;
+                d.TipusDiagrama = camps.Length > 12 ? camps[12] : string.Empty;
+                d.SoftwareCreacio = camps.Length > 13 ? camps[13] : string.Empty;
+                diagrames[d.Id] = d;
+            }
+            sr.Close();
+
+            // Fotos
+            sr = new StreamReader("CSV\\Fotos.csv");
+            sr.ReadLine();
+            while ((linia = sr.ReadLine()) != null)
+            {
+                if (string.IsNullOrWhiteSpace(linia)) continue;
+                string[] camps = linia.Split(';');
+                Fotografia f = new Fotografia();
+                f.Id = camps[0];
+                f.Titol = camps[1];
+                f.Autor = camps[2];
+                f.AnyCreacio = int.TryParse(camps[3], out var anyF) ? anyF : 0;
+                f.Etiquetes = camps[4];
+                f.RutaFitxer = camps[5];
+                f.Amplada = int.TryParse(camps[6], out var ampF) ? ampF : 0;
+                f.Alcada = int.TryParse(camps[7], out var alcF) ? alcF : 0;
+                f.EspaiColor = camps[8];
+                f.ResolucioDPI = int.TryParse(camps[9], out var dpiF) ? dpiF : 0;
+                f.TipusCompressio = camps.Length > 10 ? camps[10] : string.Empty;
+                f.ModelCamera = camps.Length > 11 ? camps[11] : string.Empty;
+                f.OberturaDiafragma = camps.Length > 12 ? camps[12] : string.Empty;
+                f.ISO = camps.Length > 13 && int.TryParse(camps[13], out var isoF) ? isoF : 0;
+                fotografies[f.Id] = f;
+            }
+            sr.Close();
+
+            // ArtDigital
+            sr = new StreamReader("CSV\\ArtDigital.csv");
+            sr.ReadLine();
+            while ((linia = sr.ReadLine()) != null)
+            {
+                if (string.IsNullOrWhiteSpace(linia)) continue;
+                string[] camps = linia.Split(';');
+                ArtDigital a = new ArtDigital();
+                a.Id = camps[0];
+                a.Titol = camps[1];
+                a.Autor = camps[2];
+                a.AnyCreacio = int.TryParse(camps[3], out var anyA) ? anyA : 0;
+                a.Etiquetes = camps[4];
+                a.RutaFitxer = camps[5];
+                a.Amplada = int.TryParse(camps[6], out var ampA) ? ampA : 0;
+                a.Alcada = int.TryParse(camps[7], out var alcA) ? alcA : 0;
+                a.EspaiColor = camps[8];
+                a.ResolucioDPI = camps.Length > 9 && int.TryParse(camps[9], out var dpiA) ? dpiA : 0;
+                a.TipusCompressio = camps.Length > 10 ? camps[10] : string.Empty;
+                a.SoftwareUtilitzat = camps.Length > 11 ? camps[11] : string.Empty;
+                artdigitals[a.Id] = a;
+            }
+            sr.Close();
+
+            // ── Afegim dades de prova ────────────────────────────────────────
+
+            // Cançons
+            cancons.Add(new Canço("c001", "Bohemian Rhapsody", "Queen", 1975,
+                new List<string> { "Rock", "Opera" }, "/music/bohemian.mp3", "Rock",
+                Bitrate.Kbps128, new TimeSpan(0, 5, 55), true));
+
+            cancons.Add(new Canço("c002", "Blinding Lights", "The Weeknd", 2019,
+                new List<string> { "Synth-pop" }, "/music/blinding.mp3", "Pop",
+                Bitrate.Kbps192, new TimeSpan(0, 3, 20), true));
+
+            // Podcasts (amb tema multivalor)
+            podcasts.Add(new Podcast("p001", "Lex Fridman #400", "Lex Fridman", 2024,
+                new List<string> { "AI", "Filosofia" }, "/pods/lex400.mp3", "Entrevista",
+                Bitrate.Kbps128, new TimeSpan(2, 30, 0), false,
+                TemaPodcast.Tecnologia | TemaPodcast.Futur));
+
+            podcasts.Add(new Podcast("p002", "El Món a RAC1", "Jordi Basté", 2023,
+                new List<string> { "Actualitat" }, "/pods/mon.mp3", "Informació",
+                Bitrate.Kbps96, new TimeSpan(1, 0, 0), false,
+                TemaPodcast.Societat | TemaPodcast.Cultura));
+
+            // Audiolliures
+            audiolliures.Add(new Audiollibre("a001", "Sapiens", "Yuval Noah Harari", 2011,
+                new List<string> { "Història", "Ciència" }, "/audio/sapiens.mp3", "No-ficció",
+                Bitrate.Kbps128, new TimeSpan(15, 17, 0), false, "Derek Perkins", 20));
+
+            // Partitures
+            partitures.Add(new Partitura("pt001", "Moonlight Sonata", "Beethoven", 1801,
+                new List<string> { "Clàssic" }, "/partituras/moonlight.pdf", "Clàssic",
+                Bitrate.Kbps64, new TimeSpan(0, 15, 0), false, "Piano", 12));
+
+            // Efectes sonors
+            efectesSonors.Add(new EfecteSonor("e001", "Tro d'estiu", "SoundLib", 2020,
+                new List<string> { "Natura", "Ambient" }, "/sfx/tro.wav", "Ambient",
+                Bitrate.Kbps192, new TimeSpan(0, 0, 8), true, "Natura", false));
+
+            efectesSonors.Add(new EfecteSonor("e002", "Foc de llar", "SoundLib", 2021,
+                new List<string> { "Natura", "Loop" }, "/sfx/foc.wav", "Ambient",
+                Bitrate.Kbps192, new TimeSpan(0, 1, 0), true, "Natura", true));
+
+            
+            // ── Imprimir totes les llistes ────────────────────────────────────
+            Console.WriteLine("\n=== Catàleg complet ===");
+            ImprimirLlista(cancons);
+            ImprimirLlista(podcasts);
+            ImprimirLlista(audiolliures);
+            ImprimirLlista(partitures);
+            ImprimirLlista(efectesSonors);
+
+
+        }
+
+        /// <summary>
+        /// Imprimeix qualsevol llista genèrica fent servir ToString() de cada element.
+        /// T no té restriccions: funciona amb Canco, Podcast, Audiollibre, Partitura, EfecteSonor…
+        /// </summary>
+        static void ImprimirLlista<T>(List<T> llista)
+        {
+            Console.WriteLine($"\n── Llista ({llista.Count} elements) ──");
+            foreach (T element in llista)
+            {
+                Console.WriteLine($"  {element}");
+            }
+        }
+
+        // Imprimeix qualsevol diccionari genèric amb format: "[NomClasse] Titol (AnyCreacio) - Autor"
+        static void ImprimirDiccionari<T>(Dictionary<string, T> diccionari)
+        {
+            Console.WriteLine($"\n── Diccionari ({diccionari.Count} elements) ──");
+            foreach (var kv in diccionari)
+            {
+                var item = kv.Value;
+                // Intentar obtenir propietats comunes per reflexió
+                var type = typeof(T);
+                var titolProp = type.GetProperty("Titol");
+                var anyProp = type.GetProperty("AnyCreacio");
+                var autorProp = type.GetProperty("Autor");
+                string titol = titolProp?.GetValue(item)?.ToString() ?? "";
+                string any = anyProp?.GetValue(item)?.ToString() ?? "";
+                string autor = autorProp?.GetValue(item)?.ToString() ?? "";
+                Console.WriteLine($"  [{type.Name}] {titol} ({any}) - {autor}");
+            }
+        }
+    }
+}

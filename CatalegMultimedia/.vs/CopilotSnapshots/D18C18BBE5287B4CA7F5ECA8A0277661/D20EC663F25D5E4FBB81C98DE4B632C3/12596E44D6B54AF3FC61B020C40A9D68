@@ -1,0 +1,83 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace SugarSyntax.Model
+{
+    public class Documental
+    {
+        // Propietats automàtiques públiques
+        public string Id { get; set; }
+        public string Titol { get; set; }
+        public string Autor { get; set; }
+        public int AnyCreacio { get; set; }
+        public string Etiquetes { get; set; }
+        public string RutaFitxer { get; set; }
+        public int Amplada { get; set; }
+        public int Alcada { get; set; }
+        public string EspaiColor { get; set; }
+        public string Resolucio { get; set; }
+        public int FrameRate { get; set; }
+        public int DuradaSegons { get; set; }
+        public string Tema { get; set; }
+
+        // Constructor buit
+        public Documental() { }
+
+        // Constructor amb tots els paràmetres i valors per defecte
+        public Documental(
+            string id = "",
+            string titol = "",
+            string autor = "",
+            int anyCreacio = 0,
+            string etiquetes = "",
+            string rutaFitxer = "",
+            int amplada = 0,
+            int alcada = 0,
+            string espaiColor = "",
+            string resolucio = "",
+            int frameRate = 0,
+            int duradaSegons = 0,
+            string tema = "")
+        {
+            Id = id;
+            Titol = titol;
+            Autor = autor;
+            AnyCreacio = anyCreacio;
+            Etiquetes = etiquetes;
+            RutaFitxer = rutaFitxer;
+            Amplada = amplada;
+            Alcada = alcada;
+            EspaiColor = espaiColor;
+            VersioSVG = versioSVG;
+            NombreVectors = nombreVectors;
+            TeFonsTransparent = teFonsTransparent;
+            Empresa = empresa;
+            ManualIdentitatUrl = manualIdentitatUrl;
+        }
+
+        // Constructor des de línia CSV
+        public Documental(string liniaCSV)
+        {
+            string[] camps = liniaCSV.Split(';');
+            Id = camps[0];
+            Titol = camps[1];
+            Autor = camps[2];
+            AnyCreacio = int.Parse(camps[3]);
+            Etiquetes = camps[4];
+            RutaFitxer = camps[5];
+            Resolucio = camps[6];
+            FrameRate = int.Parse(camps[7]);
+            DuradaSegons = int.Parse(camps[8]);
+            Tema = camps[9];
+        }
+
+        // ToString
+        public override string ToString() =>
+            $"[Documental] {Titol} ({AnyCreacio}) - {Autor}";
+
+        // Equals
+        public override bool Equals(object? obj) =>
+            obj is Documental altre && Id == altre.Id;
+    }
+}

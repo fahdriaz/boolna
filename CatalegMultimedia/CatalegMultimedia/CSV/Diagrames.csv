@@ -1,0 +1,13 @@
+﻿Id;Titol;Autor;AnyCreacio;Etiquetes;RutaFitxer;Amplada;Alçada;EspaiColor;VersioSVG;NombreVectors;TeFonsTransparent;TipusDiagrama;SoftwareCreacio
+DIAG001;Diagrama de classes base;Xevi Sanmartin;2023;UML|Classes;diagrames/diagrama_classes.svg;1200;800;RGB;1.1;42;True;UML;PlantUML
+DIAG002;Flux procés compra;Equip Vendes;2022;Flux|Procés;diagrames/fluix_compra.svg;1000;700;RGB;1.0;28;False;Flux;Draw.io
+DIAG003;Xarxa oficina central;IT;2021;Xarxa|Infraestructura;diagrames/xarxa_oficina.svg;1600;900;RGB;1.2;78;False;Xarxa;Visio
+DIAG004;Diagrama entitats BD;DB Team;2020;UML|BD;diagrames/entitats_bd.svg;1400;900;RGB;1.1;55;True;UML;MySQL Workbench
+DIAG005;Seqüència login;Seguretat;2024;Seqüència|UML;diagrames/sequencia_login.svg;900;600;RGB;1.0;12;False;UML;PlantUML
+DIAG006;Arquitectura microserveis;Arquitectura;2023;Arquitectura|Microserveis;diagrames/arquitectura_ms.svg;1800;1000;RGB;1.1;120;True;Diagrama d'arquitectura;Draw.io
+DIAG007;Diagrama dependències;DevOps;2022;Dependències|Infra;diagrames/dependencies.svg;1300;800;RGB;1.0;34;False;Diagrama de dependències;PlantUML
+DIAG008;Mapa de processos;Qualitat;2019;Procés|Mapa;diagrames/mapa_processos.svg;1100;850;RGB;1.2;26;True;Flux;Visio
+DIAG009;Diagrama UI/UX;Product;2024;UI|UX;diagrames/uiux.svg;1280;720;RGB;1.1;18;False;Wireframe;Figma
+DIAG010;Diagrama manteniment;Manteniment;2018;Manteniment|Procediment;diagrames/manteniment.svg;1000;700;RGB;1.0;9;False;Flux;Draw.io
+DIAG011;Xarxa DMZ;Seguretat;2021;Xarxa|Seguretat;diagrames/xarxa_dmz.svg;1500;900;RGB;1.2;64;True;Xarxa;Visio
+DIAG012;Diagrama instal·lació;Infra;2017;Instal·lació|HW;diagrames/instalacio.svg;1400;800;RGB;1.0;20;False;Esquemàtic;Inkscape

@@ -1,0 +1,89 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace SugarSyntax.Model
+{
+    public class Serie
+    {
+        // Propietats automàtiques públiques
+        public string Id { get; set; }
+        public string Titol { get; set; }
+        public string Autor { get; set; }
+        public int AnyCreacio { get; set; }
+        public string Etiquetes { get; set; }
+        public string RutaFitxer { get; set; }
+        public int Amplada { get; set; }
+        public int Alcada { get; set; }
+        public string EspaiColor { get; set; }
+        public string VersioSVG { get; set; }
+        public int NombreVectors { get; set; }
+        public bool TeFonsTransparent { get; set; }
+        public string Empresa { get; set; }
+        public string ManualIdentitatUrl { get; set; }
+
+        // Constructor buit
+        public Serie() { }
+
+        // Constructor amb tots els paràmetres i valors per defecte
+        public Serie(
+            string id = "",
+            string titol = "",
+            string autor = "",
+            int anyCreacio = 0,
+            string etiquetes = "",
+            string rutaFitxer = "",
+            int amplada = 0,
+            int alcada = 0,
+            string espaiColor = "",
+            string versioSVG = "",
+            int nombreVectors = 0,
+            bool teFonsTransparent = false,
+            string empresa = "",
+            string manualIdentitatUrl = "")
+        {
+            Id = id;
+            Titol = titol;
+            Autor = autor;
+            AnyCreacio = anyCreacio;
+            Etiquetes = etiquetes;
+            RutaFitxer = rutaFitxer;
+            Amplada = amplada;
+            Alcada = alcada;
+            EspaiColor = espaiColor;
+            VersioSVG = versioSVG;
+            NombreVectors = nombreVectors;
+            TeFonsTransparent = teFonsTransparent;
+            Empresa = empresa;
+            ManualIdentitatUrl = manualIdentitatUrl;
+        }
+
+        // Constructor des de línia CSV
+        public Serie(string liniaCSV)
+        {
+            string[] camps = liniaCSV.Split(';');
+            Id = camps[0];
+            Titol = camps[1];
+            Autor = camps[2];
+            AnyCreacio = int.Parse(camps[3]);
+            Etiquetes = camps[4];
+            RutaFitxer = camps[5];
+            Amplada = int.Parse(camps[6]);
+            Alcada = int.Parse(camps[7]);
+            EspaiColor = camps[8];
+            VersioSVG = camps[9];
+            NombreVectors = int.Parse(camps[10]);
+            TeFonsTransparent = bool.Parse(camps[11]);
+            Empresa = camps[12];
+            ManualIdentitatUrl = camps[13];
+        }
+
+        // ToString
+        public override string ToString() =>
+            $"[Serie] {Titol} ({AnyCreacio}) - {Autor}";
+
+        // Equals
+        public override bool Equals(object? obj) =>
+            obj is Serie altre && Id == altre.Id;
+    }
+}

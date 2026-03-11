@@ -1,0 +1,6 @@
+﻿Id;Titol;Autor;AnyCreacio;Etiquetes;RutaFitxer;Idioma;NombreParaules;Editorial;ISBN_ISSN;Pagines;Periodicitat;NumeroVolum;NumeroExemplar;Mes
+REV-001;National Geographic;;2023;;https://upload.wikimedia.org/wikipedia/commons/6/6a/National_Geographic_Magazine.jpg;Alemany;20000;National Geographic Partners;0027-9358;140;Mensual;244;4;Octubre
+REV-002;Time;;2023;EditorialDeModa|NúmeroIEdició;https://api.time.com/wp-content/uploads/2023/12/TIME-POY-Taylor-Swift-2023.jpg;Català;25000;Time USA, LLC;0040-781X;96;Setmanal;202;21;Desembre
+REV-003;Sàpiens;;2024;MaquetacioEditorial;https://www.sapiens.cat/uploads/s1/26/2/portada-262.jpg;Francès;25000;Som;1695-2014;84;Mensual;1;262;Gener
+REV-004;Vogue;;2023;EditorialDeModa|Capçalera|InfografiaNarrativa|MaquetacioEditorial;https://assets.vogue.com/photos/64e8e8e8e8e8e8e8e8e8e8e8/master/w_1600%2Cc_limit/Cover.jpg;Alemany;25000;Condé Nast;0042-8000;400;Mensual;133;9;Setembre
+REV-005;Cavall Fort;;2024;InfografiaNarrativa|SeccióFixa;https://cavallfort.cat/wp-content/uploads/2024/02/portada-1452.jpg;Castellà;15000;Fundació Cavall Fort;0210-6361;36;Quinzenal;1;1452;Febrer

@@ -1,0 +1,90 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace SugarSyntex.Model
+{
+    public class Manuscrit : Text
+    {
+
+
+        // Propietats 
+
+        public string TipusCaligrafia { get; set; }
+        public string EstatConservacio { get; set; }
+        public string MaterialSuport { get; set; }
+        public int Pagines { get; set; }
+
+        // Constructor sense paràmetres (inicialitza tots els camps a valors per defecte)
+        public Manuscrit():base(0, "", "", 0, null, "", "", 0)
+
+        {
+ 
+            TipusCaligrafia = "";
+            EstatConservacio = "";
+            MaterialSuport = "";
+            Pagines = 0;
+        }
+
+        // Constructor amb tots els paràmetres i valors per defecte
+        public Manuscrit(
+            string id = "",
+            string titol = "",
+            string autor = "",
+            int anyCreacio = 0,
+            List<string> etiquetes = null,
+            string rutaFitxer = "",
+            string idioma = "",
+            int nombreParaules = 0,
+            string tipusCaligrafia = "",
+            string estatConservacio = "",
+            string materialSuport = "",
+            int pagines = 0)
+            : base(id, titol, autor, anyCreacio, etiquetes, rutaFitxer, idioma, nombreParaules)
+        {
+            TipusCaligrafia = tipusCaligrafia;
+            EstatConservacio = estatConservacio;
+            MaterialSuport = materialSuport;
+            Pagines = pagines;
+        }
+
+        // Constructor des de línia CSV
+        public Manuscrit(string liniaCSV)
+            : base(0, "", "", 0, null, "", "", 0)
+        {
+            string[] camps = liniaCSV.Split(';');
+
+            // Id a Mitja és un int, cal convertir des de string
+            Id = int.TryParse(camps[0], out var idVal) ? idVal : 0;
+            Titol = camps[1];
+            Autor = camps[2];
+            AnyCreacio = int.Parse(camps[3]);
+            Etiquetes = camps[4].Split('|').ToList();
+            RutaFitxer = camps[5];
+            Idioma = camps[6];
+            NombreParaules = int.Parse(camps[7]);
+            TipusCaligrafia = camps[8];
+            EstatConservacio = camps[9];
+            MaterialSuport = camps[10];
+            Pagines = int.Parse(camps[11]);
+        }
+
+        // Override ToString
+        public override string ToString()
+        {
+            return $"[Manuscrit] {Titol} ({AnyCreacio}) - {Autor}";
+        }
+
+        // Override Equals
+        public override bool Equals(object? obj)
+        {
+            if (obj is Manuscrit altre)
+            {
+                return Id == altre.Id;
+            }
+            return false;
+        }
+
+    }
+}

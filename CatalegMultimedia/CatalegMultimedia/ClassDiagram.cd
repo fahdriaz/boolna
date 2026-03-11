@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SugarSyntex.Model.Mitja" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwCAAAAAAAAAEAEAAAgAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Model\Mitja.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SugarSyntex.Model.Text" Collapsed="true">
+    <Position X="13.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAEAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Text.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SugarSyntex.Model.Publicacio" Collapsed="true">
+    <Position X="12.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACEAAAAAAAAAAAAAAgAAAAAAAAAAAE=</HashCode>
+      <FileName>Model\Publicacio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SugarSyntex.Model.So" Collapsed="true">
+    <Position X="8.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAACAAAAAAAEEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\So.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SugarSyntex.Model.Audio" Collapsed="true">
+    <Position X="9.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Audio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SugarSyntex.Model.Imatge" Collapsed="true">
+    <Position X="3.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Imatge.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SugarSyntex.Model.Bitmap" Collapsed="true">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Bitmap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SugarSyntax.Partitura" Collapsed="true">
+    <Position X="11.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAABAACAAAAAAAAAAAAAAAAAM=</HashCode>
+      <FileName>Model\Partitura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SugarSyntex.Model.Video" Collapsed="true">
+    <Position X="20.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAEEAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Model\Video.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SugarSyntex.Model.Manuscrit" Collapsed="true">
+    <Position X="14.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAACEgABAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Model\Manuscrit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SugarSyntex.Model.Llibre" Collapsed="true">
+    <Position X="9.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAEgAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Model\Llibre.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SugarSyntex.Model.Revista" Collapsed="true">
+    <Position X="12" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAIAAAAAFgAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Model\Revista.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SugarSyntex.Model.Cartografia" Collapsed="true">
+    <Position X="14.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAgAAAgAAAAEgAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Model\Cartografia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SugarSyntex.Model.Gravat" Collapsed="true">
+    <Position X="16.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAgAAAAEgAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Model\Gravat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SugarSyntax.Model.Pelicula" Collapsed="true">
+    <Position X="20.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAACAAAEgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Pelicula.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SugarSyntax.Model.Documental" Collapsed="true">
+    <Position X="18" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Model\Documental.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SugarSyntax.Model.Serie" Collapsed="true">
+    <Position X="22.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAEgAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Serie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SugarSyntax.Audiollibre" Collapsed="true">
+    <Position X="5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIgAAAAEgAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Audiollibre.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SugarSyntax.Podcast" Collapsed="true">
+    <Position X="6.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAAAAAEAAAAAAABAAAAAEA=</HashCode>
+      <FileName>Model\Podcast.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SugarSyntax.EfecteSonor" Collapsed="true">
+    <Position X="8.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAkgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\EfecteSonor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SugarSyntax.Canco" Collapsed="true">
+    <Position X="10.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAABAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Model\Canco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SugarSyntex.Model.Vectorial" Collapsed="true">
+    <Position X="1.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAEAAAAAABAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Model\Vectorial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SugarSyntax.Model.Diagrama" Collapsed="true">
+    <Position X="0.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAEgAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Model\Diagrama.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SugarSyntax.Model.Logotip" Collapsed="true">
+    <Position X="3" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAEgAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Logotip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SugarSyntax.Model.ArtDigital" Collapsed="true">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAEgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\ArtDigital.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SugarSyntax.Model.Fotografia" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAABAAAAAAAAAAAAAAAACAAAAAQ=</HashCode>
+      <FileName>Model\Fotografia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,124 @@
+﻿using SugarSyntax;
+using static SugarSyntax.Enumeracions;
+using static SugarSyntex.Model.Bitrates;
+
+namespace SugarSyntex
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            // ------------------------------------
+            //  5 llistes separades del catàleg
+            // ------------------------------------
+
+            List<Canço> cancons = new List<Canço>();
+            List<Podcast> podcasts = new List<Podcast>();
+            List<Audiollibre> audiolliures = new List<Audiollibre>();
+            List<Partitura> partitures = new List<Partitura>();
+            List<EfecteSonor> efectesSonors = new List<EfecteSonor>();
+
+            // ────────────────────────────────────────────────────────────────
+            //  LECTURA CSV
+            // ────────────────────────────────────────────────────────────────
+
+            StreamReader sr = new StreamReader("Cansons.csv");
+            sr.ReadLine(); // Saltar capçalera
+            string linia;
+            while ((linia = sr.ReadLine()) != null)
+                cancons.Add(new Canço(linia));
+            sr.Close();
+            
+            sr = new StreamReader("Podcats.csv");
+            sr.ReadLine();
+            while ((linia = sr.ReadLine()) != null)
+                podcasts.Add(new Podcast(linia));
+            sr.Close();
+            
+            sr = new StreamReader("Audiollibres.csv");
+            sr.ReadLine();
+            while ((linia = sr.ReadLine()) != null)
+                audiolliures.Add(new Audiollibre(linia));
+            sr.Close();
+            
+            sr = new StreamReader("Partitures.csv");
+            sr.ReadLine();
+            while ((linia = sr.ReadLine()) != null)
+                partitures.Add(new Partitura(linia));
+            sr.Close();
+            
+            sr = new StreamReader("Sons.csv");
+            sr.ReadLine();
+            while ((linia = sr.ReadLine()) != null)
+                efectesSonors.Add(new EfecteSonor(linia));
+            sr.Close();
+
+            // ── Afegim dades de prova ────────────────────────────────────────
+
+            // Cançons
+            cancons.Add(new Canço("c001", "Bohemian Rhapsody", "Queen", 1975,
+                new List<string> { "Rock", "Opera" }, "/music/bohemian.mp3", "Rock",
+                Bitrate.Kbps128, new TimeSpan(0, 5, 55), true));
+
+            cancons.Add(new Canço("c002", "Blinding Lights", "The Weeknd", 2019,
+                new List<string> { "Synth-pop" }, "/music/blinding.mp3", "Pop",
+                Bitrate.Kbps192, new TimeSpan(0, 3, 20), true));
+
+            // Podcasts (amb tema multivalor)
+            podcasts.Add(new Podcast("p001", "Lex Fridman #400", "Lex Fridman", 2024,
+                new List<string> { "AI", "Filosofia" }, "/pods/lex400.mp3", "Entrevista",
+                Bitrate.Kbps128, new TimeSpan(2, 30, 0), false,
+                TemaPodcast.Tecnologia | TemaPodcast.Futur));
+
+            podcasts.Add(new Podcast("p002", "El Món a RAC1", "Jordi Basté", 2023,
+                new List<string> { "Actualitat" }, "/pods/mon.mp3", "Informació",
+                Bitrate.Kbps96, new TimeSpan(1, 0, 0), false,
+                TemaPodcast.Societat | TemaPodcast.Cultura));
+
+            // Audiolliures
+            audiolliures.Add(new Audiollibre("a001", "Sapiens", "Yuval Noah Harari", 2011,
+                new List<string> { "Història", "Ciència" }, "/audio/sapiens.mp3", "No-ficció",
+                Bitrate.Kbps128, new TimeSpan(15, 17, 0), false, "Derek Perkins", 20));
+
+            // Partitures
+            partitures.Add(new Partitura("pt001", "Moonlight Sonata", "Beethoven", 1801,
+                new List<string> { "Clàssic" }, "/partituras/moonlight.pdf", "Clàssic",
+                Bitrate.Kbps64, new TimeSpan(0, 15, 0), false, "Piano", 12));
+
+            // Efectes sonors
+            efectesSonors.Add(new EfecteSonor("e001", "Tro d'estiu", "SoundLib", 2020,
+                new List<string> { "Natura", "Ambient" }, "/sfx/tro.wav", "Ambient",
+                Bitrate.Kbps192, new TimeSpan(0, 0, 8), true, "Natura", false));
+
+            efectesSonors.Add(new EfecteSonor("e002", "Foc de llar", "SoundLib", 2021,
+                new List<string> { "Natura", "Loop" }, "/sfx/foc.wav", "Ambient",
+                Bitrate.Kbps192, new TimeSpan(0, 1, 0), true, "Natura", true));
+
+            
+            // ── Imprimir totes les llistes ────────────────────────────────────
+            Console.WriteLine("\n=== Catàleg complet ===");
+            ImprimirLlista(cancons);
+            ImprimirLlista(podcasts);
+            ImprimirLlista(audiolliures);
+            ImprimirLlista(partitures);
+            ImprimirLlista(efectesSonors);
+
+
+        }
+
+        /// <summary>
+        /// Imprimeix qualsevol llista genèrica fent servir ToString() de cada element.
+        /// T no té restriccions: funciona amb Canco, Podcast, Audiollibre, Partitura, EfecteSonor…
+        /// </summary>
+        static void ImprimirLlista<T>(List<T> llista)
+        {
+            Console.WriteLine($"\n── Llista ({llista.Count} elements) ──");
+            foreach (T element in llista)
+            {
+                Console.WriteLine($"  {element}");
+            }
+        }
+    }
+}

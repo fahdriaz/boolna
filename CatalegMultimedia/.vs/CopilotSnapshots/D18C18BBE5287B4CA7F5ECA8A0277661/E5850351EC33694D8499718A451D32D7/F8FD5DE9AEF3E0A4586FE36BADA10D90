@@ -1,0 +1,101 @@
+﻿﻿using static SugarSyntax.Enumeracions;
+using static SugarSyntex.Model.Bitrates;
+
+namespace SugarSyntax;
+
+public class Podcast
+{
+    // ── Propietats automàtiques ──────────────────────────────────────────────
+    public string Id { get; set; }
+    public string Titol { get; set; }
+    public string Autor { get; set; }
+    public int AnyCreacio { get; set; }
+    public List<string> Etiquetes { get; set; }
+    public string RutaFitxer { get; set; }
+    public string Genere { get; set; }
+    public Bitrate BitrateKBPS { get; set; }
+    public TimeSpan Durada { get; set; }
+    public bool EsStereo { get; set; }
+
+    /// <summary>
+    /// Propietat multivalor: pot combinar diversos temes.
+    /// Exemple: Tema = TemaPodcast.Tecnologia | TemaPodcast.Futur
+    /// </summary>
+    public TemaPodcast Tema { get; set; }
+
+    // ── Constructors ─────────────────────────────────────────────────────────
+
+    /// <summary>Constructor buit.</summary>
+    public Podcast()
+    {
+        Id = string.Empty;
+        Titol = string.Empty;
+        Autor = string.Empty;
+        Etiquetes = new List<string>();
+        RutaFitxer = string.Empty;
+        Genere = string.Empty;
+    }
+
+    /// <summary>Constructor amb tots els paràmetres i valors per defecte.</summary>
+    public Podcast(
+        string id = "",
+        string titol = "",
+        string autor = "",
+        int anyCreacio = 2000,
+        List<string>? etiquetes = null,
+        string rutaFitxer = "",
+        string genere = "",
+        Bitrate bitrateKBPS = Bitrate.Kbps128,
+        TimeSpan durada = default,
+        bool esStereo = false,
+        TemaPodcast tema = TemaPodcast.Tecnologia)
+    {
+        Id = id;
+        Titol = titol;
+        Autor = autor;
+        AnyCreacio = anyCreacio;
+        Etiquetes = etiquetes ?? new List<string>();
+        RutaFitxer = rutaFitxer;
+        Genere = genere;
+        BitrateKBPS = bitrateKBPS;
+        Durada = durada;
+        EsStereo = esStereo;
+        Tema = tema;
+    }
+
+    /// <summary>Constructor des d'una línia CSV.</summary>
+    public Podcast(string liniaCSV)
+    {
+        // Columnes CSV:
+        // Id;Titol;Autor;AnyCreacio;Etiquetes;RutaFitxer;Genere;BitrateKbps;EsStereo;DuradaSegons;Presentador;NumeroEpisodi;Tema
+        string[] camps = liniaCSV.Split(';');
+
+        Id = camps[0].Trim();
+        Titol = camps[1].Trim();
+        Autor = camps[2].Trim();
+        AnyCreacio = int.Parse(camps[3].Trim());
+        Etiquetes = new List<string>(camps[4].Trim().Split('|'));
+        RutaFitxer = camps[5].Trim();
+        Genere = camps[6].Trim();
+        BitrateKBPS = Enum.Parse<Bitrate>(camps[7].Trim());
+        EsStereo = bool.Parse(camps[8].Trim());
+        double segons = double.Parse(camps[9].Trim().Replace(",", "."));
+        Durada = TimeSpan.FromSeconds(segons);
+        // El tema pot venir com "Tecnologia|Futur" al CSV - parseamos el primer
+        Tema = TemaPodcast.Cultura;//Enum.Parse<TemaPodcast>(camps[12].Trim().Split('|')[0].Trim());
+
+        // Has de convertir un string que te diversos valors en un array de strigs que te els valors separats fent un split.
+        // Ara has de convertir cada una de les enumeracions amb un parse!
+        // Despres ho has de operar amb una O | 
+        // falta cap en enumeracions
+    }
+
+    // ── Mètodes ──────────────────────────────────────────────────────────────
+
+    public override string ToString()
+        => $"[Podcast] {Titol} ({AnyCreacio}) - {Autor}";
+
+    public override bool Equals(object? obj)
+        => obj is Podcast altre && Id == altre.Id;
+
+}
